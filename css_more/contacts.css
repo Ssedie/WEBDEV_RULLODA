@@ -1,8 +1,5 @@
-html{
-    font-family:'Courier New', Courier, monospace;
-}
-
-a{
+nav a{
+    
     font-size: 25px;
     color: #5b3a29;
     margin-right: auto;
@@ -14,11 +11,11 @@ a{
     text-decoration: none;
     padding: 2px;
 }
-
+    
 a:active{
     background-color: brown;
 }
-
+    
 a:hover{
     color:#C2B280;
     background-color:brown;
@@ -28,9 +25,39 @@ body{
     background-color: #C2B280;
 }
 
-article{
+form{
+    border: 2px;
+    border-color: #a76d4d;
+    border-style: inset;
+    background-color: beige;
     color: #5b3a29;
+    width: 700px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    display: block;
+    width: 500px;
     place-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    background-color: #a76d4d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+}
+
+article{
+    display: grid;
+    place-items: center;
+    color:#5b3a29;
 }
 
 footer{
@@ -42,4 +69,3 @@ footer{
     background-color: #5b3a29;
     color: #C2B280;
 }
-

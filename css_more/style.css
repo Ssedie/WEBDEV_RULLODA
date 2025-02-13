@@ -2,11 +2,10 @@ html{
     font-family:'Courier New', Courier, monospace;
 }
 
-img,b{
+img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+    margin: 0 auto;
+    width: 250px;
 }
 
 body{
@@ -17,6 +16,7 @@ body{
 }
 
 article{
+    place-items: center;
     color: #5b3a29;
 }
 
@@ -31,6 +31,7 @@ a{
     border-style:outset;
     text-decoration: none;
     padding: 2px;
+    place-items: center;
 }
 
 a:active{
@@ -40,4 +41,14 @@ a:active{
 a:hover{
     color:#C2B280;
     background-color:brown;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #5b3a29;
+    color: #C2B280;
 }
