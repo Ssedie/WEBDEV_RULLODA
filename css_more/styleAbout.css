@@ -2,24 +2,6 @@ html{
     font-family:'Courier New', Courier, monospace;
 }
 
-img,b{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-}
-
-body{
-    background-color:#E4CDAF;
-    margin-bottom: 20px;
-    margin-right: 100px;
-    margin-left: 20px;
-}
-
-article{
-    color: #5b3a29;
-}
-
 a{
     font-size: 25px;
     color: #5b3a29;
@@ -41,3 +23,23 @@ a:hover{
     color:#C2B280;
     background-color:brown;
 }
+
+body{
+    background-color: #C2B280;
+}
+
+article h1{
+    color: #5b3a29;
+    text-shadow: 4px 2px 3px rgba(34, 34, 34, 0.72);
+}
+
+article h3,p{
+    color: #5b3a29;
+}
+
+footer{
+    text-align: center;
+    background-color: #5b3a29;
+    color: #C2B280;
+}
+
