@@ -20,6 +20,12 @@ article{
     color: #5b3a29;
 }
 
+article h2{
+    display: block;
+    place-self: center;
+}
+
+
 a{
     font-size: 25px;
     color: #5b3a29;
