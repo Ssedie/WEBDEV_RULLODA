@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: arial,sans-serif;
+            
+        }
+
+        header{
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 10px 20px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            position: fixed;
+            box-sizing: border-box;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        #logo{
+            display: flex;
+            align-items: center;
+        }
+
+        #logo img{
+            width: 60px;
+        }
+
+        #side-bar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-grow: 1;
+        }
+
+        #side-bar nav:first-child{
+            margin-left: 50px;
+        }
+
+        nav:last-child{
+            display: flex;
+            align-items: center;
+        }
+
+
+        ul{
+            display: flex;
+            list-style: none;
+        }
+
+        ul li{
+            margin-right: 15px;
+        }
+
+        ul li:last-child{
+            margin-right: 0;
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        ul li a:hover{
+            color: #00704A;
+        }
+
+        ul li a:active{
+            box-sizing: border-box;
+            box-shadow: 0 4px 10px;
+        }
+
+        nav:last-child{
+            display: flex;
+            align-items: center;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        button{
+            background-color: white;
+            border: 1px solid black;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left:10px;
+        }
+
+        .sign-in:hover{
+            background-color: #00704A;
+            color: white;
+            border: none;
+        }
+
+        .join-now{
+            background-color: #00704A;
+            color: white;
+            border: none;
+        }
+
+        .join-now:hover{
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div id="logo">
+            <img src="/img/asdasdasdasdasdasdasdKASdcJAs.png" alt="Logo">
+        </div>
+
+        <div id="side-bar">
+            <nav>
+                <ul>
+                    <li><a href="/">Menu</a></li>
+                    <li><a href="/">Rewards</a></li>
+                    <li><a href="/">Gift Cards</a></li>
+                </ul>
+            </nav>
+
+            <nav>
+                <a href="https://www.starbucks.com/store-locator">Find a Store</a>
+                <button class="sign-in">Sign In</button>
+                <button class="join-now">Join Now</button>
+            </nav>
+        </div>
+    </header>
+    
+</body>
+</html>

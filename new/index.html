@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .ito-na-yun{
+            display: grid;
+            grid-template-areas: 
+                "ewan ewan ewan ewan"
+                "basta basta basta ito"
+                "na na yun yun"
+                "boss boss boss boss";
+            grid-template-columns: 2fr 2fr 2fr 1fr;
+            gap: 10px;
+            height: 500px;
+        }
+
+        .ewan{
+            background-color: lightblue;
+            color: white;
+        }
+
+        .basta{
+            background-color: lightgreen;
+            color: white;
+        }
+
+        .ito{
+            background-color: purple;
+            color: white;
+        }
+
+        .na,.yun{
+            background-color: orange;
+            color: white;
+        }
+
+        .boss{
+            background-color: dodgerblue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="ito-na-nga">
+            <div class="ewan">.header</div>
+            <div class="basta">.main-content</div>
+            <div class="ito">.sidebar</div>
+            <div class="na">.twin</div>
+            <div class="yun">.twin</div>
+            <div class="boss">.footer</div>
+        </div>
+    </main>
+</body>
+</html>
