@@ -9,14 +9,21 @@
         .ito-na-nga{
             display: grid;
             grid-template-areas: 
-                "ewan ewan ewan ewan"
-                "basta basta basta ito"
-                "na na yun yun"
-                "boss boss boss boss";
-            grid-template-columns: 2fr 2fr 2fr 1fr;
+                "header header header header"
+                "main main main sidebar"
+                "twin twin twin2 twin2"
+                "footer footer footer footer";
+            grid-template-columns: 2fr 2fr 2fr 2fr;
             gap: 10px;
             height: 500px;
         }
+        
+        .ewan{grid-area:header;}
+        .basta{grid-area:main;}
+        .ito{grid-area:sidebar;}
+        .na{grid-area:twin;}
+        .yun{grid-area:twin2;}
+        .boss{grid-area:footer;}
 
         .ewan{
             background-color: lightblue;
